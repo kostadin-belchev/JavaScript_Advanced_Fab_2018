@@ -17,4 +17,4 @@ The course is highly focused on practice, with a huge number of class exercises,
 
 The course ends with a practical JavaScript exam for functional and OOP programming and DOM with automated assessment with an online judging system.
 
-The course is part of the overall JavaScript program and training courses for the "JavaScript programmer" profession at the University of Software.
+The course is part of the complete program with JavaScript courses and tutorials for the <a href="https://softuni.bg/professions/javascript">JavaScript developer</a> training at the University of Software.
