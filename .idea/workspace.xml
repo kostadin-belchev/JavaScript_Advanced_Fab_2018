@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af2bf4da-ea9d-4193-91fb-43a284ae6e58" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/03_JS-Advanced-DOM-Manipulation-Lab/00_IndexHTML/index.html" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/01_Text from List/jquery-3.3.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/02_Search in List/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/02_Search in List/search.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/01_Text from List/extract-text.js" afterPath="$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/01_Text from List/extract-text.js" />
+      <change beforePath="$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/01_Text from List/text.html" afterPath="$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/01_Text from List/text.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,41 +23,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="text.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/01_Text from List/text.html">
+          <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/02_Search in List/list.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="340">
+                  <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="extract-text.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/01_Text from List/extract-text.js">
+          <file leaf-file-name="search.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/02_Search in List/search.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/03_JS-Advanced-DOM-Manipulation-Lab/05_Mouse Gradient WebStorm/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="gradient.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/03_JS-Advanced-DOM-Manipulation-Lab/05_Mouse Gradient WebStorm/gradient.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+                <state relative-caret-position="36">
+                  <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -62,11 +47,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="text.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/01_Text from List/text.html">
+          <file leaf-file-name="list.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/02_Search in List/list.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+                <state relative-caret-position="255">
+                  <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
@@ -79,8 +64,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -110,9 +95,11 @@
         <option value="$PROJECT_DIR$/04_JS-Advanced-DOM-Manipulation-Exercises/07_Distance Converter/distanceConverter.css" />
         <option value="$PROJECT_DIR$/04_JS-Advanced-DOM-Manipulation-Exercises/07_Distance Converter/distanceConverter.html" />
         <option value="$PROJECT_DIR$/04_JS-Advanced-DOM-Manipulation-Exercises/07_Distance Converter/distanceConverter.js" />
+        <option value="$PROJECT_DIR$/03_JS-Advanced-DOM-Manipulation-Lab/05_Mouse Gradient WebStorm/gradient.js" />
         <option value="$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/01_Text from List/text.html" />
         <option value="$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/01_Text from List/extract-text.js" />
-        <option value="$PROJECT_DIR$/03_JS-Advanced-DOM-Manipulation-Lab/05_Mouse Gradient WebStorm/gradient.js" />
+        <option value="$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/02_Search in List/list.html" />
+        <option value="$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/02_Search in List/search.js" />
       </list>
     </option>
   </component>
@@ -210,7 +197,7 @@
               <item name="JavaScript_Advanced_Fab_2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScript_Advanced_Fab_2018" type="462c0819:PsiDirectoryNode" />
               <item name="05_JS-Advanced-jQuery-Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="01_Text from List" type="462c0819:PsiDirectoryNode" />
+              <item name="02_Search in List" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,6 +220,9 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\IBM_ADMIN\Dropbox\SoftUni\JavaScript_Advanced_Fab_2018\05_JS-Advanced-jQuery-Lab\01_Text from List" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\IBM_ADMIN\Dropbox\SoftUni\JavaScript_Advanced_Fab_2018\04_JS-Advanced-DOM-Manipulation-Exercises" />
     </key>
@@ -263,17 +253,18 @@
       <option name="presentableId" value="Default" />
       <updated>1518945684901</updated>
       <workItem from="1518945686188" duration="12828000" />
-      <workItem from="1519059553176" duration="692000" />
+      <workItem from="1519059553176" duration="5030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13520000" />
+    <option name="totallyTimeSpent" value="17858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.103125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.133125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -443,18 +434,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/01_Text from List/text.html">
+    <entry file="file://$PROJECT_DIR$/03_JS-Advanced-DOM-Manipulation-Lab/05_Mouse Gradient WebStorm/gradient.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/01_Text from List/extract-text.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -467,10 +450,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_JS-Advanced-DOM-Manipulation-Lab/05_Mouse Gradient WebStorm/gradient.js">
+    <entry file="file://$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/01_Text from List/jquery-3.3.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/01_Text from List/text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/01_Text from List/extract-text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/02_Search in List/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_JS-Advanced-jQuery-Lab/02_Search in List/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
           <folding />
         </state>
       </provider>
