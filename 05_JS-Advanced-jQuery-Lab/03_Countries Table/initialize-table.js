@@ -40,29 +40,40 @@ function initializeTable() {
             .append(' ')
             .append($('<a href="#">').text('[Delete]').click(deleteItem))
         );
+        row.css('display', 'none');
         row.appendTo('#countriesTable');
+        row.fadeIn();
     }
 
     //moveUp function
     function moveUp () {
         //alert('Moved Up!') // checking if linkage works
         let row = $(this).parent().parent();
-        row.insertBefore(row.prev());
-        fixLinks();
+        row.fadeOut(()=> {
+            row.insertBefore(row.prev());
+            row.fadeIn();
+            fixLinks();
+        })
     }
 
     //moveDown function
     function moveDown(params) {
         //alert('Moved Down!')
         let row = $(this).parent().parent();
-        row.insertAfter(row.next());
-        fixLinks();
+        row.fadeOut(()=> {
+            row.insertAfter(row.next());
+            row.fadeIn();
+            fixLinks();
+        })
     }
 
     //deleteItem function
     function deleteItem(params) {
         //alert('Deleted!')
-        $(this).parent().parent().remove();
-        fixLinks();
+        let row = $(this).parent().parent();
+        row.fadeOut( ()=> {
+            row.remove();
+            fixLinks();
+        })
     }
 }
