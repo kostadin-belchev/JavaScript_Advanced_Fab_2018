@@ -17,7 +17,7 @@ function solution(command) {
             let totalScore = this.upvotes - this.downvotes;
             scoreArray.push(totalScore);
 
-            //RATING
+            // RATING
             // let rating = '';
             // if ((this.upvotes / totalVotes) > 0.66) {
             //     rating = 'hot';
