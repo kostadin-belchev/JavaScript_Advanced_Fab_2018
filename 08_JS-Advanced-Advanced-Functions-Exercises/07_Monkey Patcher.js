@@ -21,7 +21,7 @@ function solution(command) {
             // let rating = '';
             // if ((this.upvotes / totalVotes) > 0.66) {
             //     rating = 'hot';
-            // } else if (rating != 'hot' && totalScore >= 0 && (this.upvotes > 100 || this.downvotes > 100)) {
+            // } else if (((this.upvotes / totalVotes) <= 0.66) && totalScore >= 0 && (this.upvotes > 100 || this.downvotes > 100)) {
             //     rating = 'controversial';
             // } else if (totalScore < 0) {
             //     rating = 'unpopular';
