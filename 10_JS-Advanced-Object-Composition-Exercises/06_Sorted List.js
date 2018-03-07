@@ -12,13 +12,11 @@ function solution() {
     }
 
     function remove(index) {
-        
         if (index >= 0 && index < collection.length) {
             collection.splice(index, 1);
             this.size--;
             return collection.sort(sortingFunction);
         }
-        
     }
 
     function get(index) {
