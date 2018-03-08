@@ -4,21 +4,17 @@ class SortedList {
         this.size = this.collection.length;
     }
 
-    sortingFunction(a, b) {
-        return a - b;
-    }
-
     add(element) {
         this.collection.push(element);
         this.size++;
-        return this.collection.sort(this.sortingFunction);
+        return this.collection.sort((a, b) => a - b);
     }
 
     remove(index) {
         if (index >= 0 && index < this.collection.length) {
             this.collection.splice(index, 1);
             this.size--;
-            return this.collection.sort(this.sortingFunction);
+            return this.collection;
         }
     }
 
