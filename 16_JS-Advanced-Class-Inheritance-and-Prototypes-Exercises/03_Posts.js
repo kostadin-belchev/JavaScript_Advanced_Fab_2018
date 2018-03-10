@@ -23,8 +23,7 @@ function solve() {
         }
     
         toString() {
-            let string = `Post: ${this.title}\nContent: ${this.content}\n`;
-            string += `Rating: ${this.likes - this.dislikes}`;
+            let string = `${super.toString()}\nRating: ${this.likes - this.dislikes}`;
             if (this.comments.length > 0) {
                 string += "\nComments:\n * ";
             }
@@ -45,7 +44,7 @@ function solve() {
         }
     
         toString() {
-            return `Post: ${this.title}\nContent: ${this.content}\nViews: ${this.views}`
+            return `${super.toString()}\nViews: ${this.views}`
         }
     }
 
