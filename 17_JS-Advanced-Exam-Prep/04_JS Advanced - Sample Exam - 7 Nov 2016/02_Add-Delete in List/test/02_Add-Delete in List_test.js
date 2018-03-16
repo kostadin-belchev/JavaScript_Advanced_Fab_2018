@@ -1,13 +1,13 @@
 let expect = require('chai').expect;
-const list = require('../02_Add-Delete in List');
+const myList = require('../02_Add-Delete in List');
 
 describe("Add Delete in List", function() {
 
     //Comment this code due to Judge Imperfections
-    // let list;
-    // beforeEach(function () {
-    //     list = list;
-    // });
+    let list;
+    beforeEach(function () {
+        list = myList;
+    });
     it("return empty array when iniciated", function() {
         expect(`list = [${list.toString()}]`).to.equal('list = []');
     });

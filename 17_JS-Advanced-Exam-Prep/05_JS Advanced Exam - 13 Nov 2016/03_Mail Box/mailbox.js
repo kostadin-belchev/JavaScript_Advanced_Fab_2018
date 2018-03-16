@@ -1,5 +1,33 @@
 class MailBox {
     // TODO: implement this class
+    constructor() {
+        this._messages = [];
+    }
+    addMessage(subject, text) {
+        this._messages.push({subject, text});
+        return this;
+    }
+    get messageCount() {
+        return this._messages.length;
+    }
+    deleteAllMessages() {
+        this._messages.length = 0;
+    }
+    findBySubject(substr) {
+        let matched = [];
+        for (const message of this._messages) {
+            if (message.subject.includes(substr)) {
+                matched.push(message);
+            }
+        }
+        return matched;
+    }
+    toString() {
+            if (this._messages.length === 0) {
+                return ` * (empty mailbox)`;
+            }
+            return this._messages.map( m => ` * [${m.subject}] ${m.text}`).join('\n');
+        }      
 }
 
 let mb = new MailBox();
